@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CodesCracker
+public class Primenumber
 {
    public static void main(String[] args)
    {
@@ -20,8 +20,8 @@ public class CodesCracker
       }
       
       if(count==0)
-         System.out.println("\nIt is a Prime Number.");
+         System.out.println("\nIt's a Prime Number.");
       else
-         System.out.println("\nIt is not a Prime Number.");
+         System.out.println("\nIt's not a Prime Number.");
    }
 }
