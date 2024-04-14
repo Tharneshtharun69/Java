@@ -4,7 +4,7 @@ class maximumvalueofanarray{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int size=sc.nextInt();
-        System.out.println("Enter the elenents of the array:");
+        System.out.println("Enter the elements of the array:");
         int arr[]=new int[size];
         for(int i=0;i<size;i++)
         {
