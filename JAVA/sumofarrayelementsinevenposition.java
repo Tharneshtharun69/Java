@@ -19,6 +19,6 @@ class sumofarrayelementsinevenposition{
                 sum=sum+arr[i];
             }
         }
-        System.out.println("Sum of the array is: "+sum);
+        System.out.println("Sum of the array elements present in even position is: "+sum);
     }
 }
