@@ -16,7 +16,7 @@ class changealloccurencesofanumberinarraywithanewnumber
         int needtochange=sc.nextInt();
         System.out.println("Enter the new number:");
         int newnumber=sc.nextInt();
-        for(int i=0;i<arr.length-1;i++)
+        for(int i=0;i<arr.length;i++)
         {
             if(arr[i]==needtochange)
             {
