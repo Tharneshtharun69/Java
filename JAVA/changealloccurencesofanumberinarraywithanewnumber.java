@@ -23,7 +23,7 @@ class changealloccurencesofanumberinarraywithanewnumber
                 arr[i]=newnumber;
             }
         }
-        System.out.println("After changing the elements the array is:");
+        System.out.println("After changing the elements,the array is:");
         for(int i=0;i<size;i++)
         {
             System.out.print(arr[i]+" ");
