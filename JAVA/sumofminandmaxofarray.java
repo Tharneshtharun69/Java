@@ -10,7 +10,7 @@ class sumofminandmaxofarray{
         {
             arr[i]=sc.nextInt();
         }
-        int max=0;
+        int max=arr[0];
         for(int i=0;i<arr.length;i++)
         {
             if(arr[i]>max)
@@ -18,7 +18,7 @@ class sumofminandmaxofarray{
                 max=arr[i];
             }
         }
-        int min=max;
+        int min=arr[0];
         for(int i=0;i<arr.length;i++)
         {
             if(arr[i]<min)
