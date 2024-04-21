@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class pairsofarraywhichhavetargetsum {
+class pairsofarraywhichequalstargetsum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
