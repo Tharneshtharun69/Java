@@ -21,10 +21,10 @@ class ChangeAllOccurrencesOfANumberInArrayWithANewNumber {
             }
         }
         if (!found) {
-            System.out.println("Element not found in array"); 
+            System.out.println("Element not found in array");
         } else {
             System.out.println("After changing the elements, the array is:");
-            for (int i = 0; i < size; i++) {
+            for (int i=0;i<size;i++) {
                 System.out.print(arr[i] + " ");
             }
         }
