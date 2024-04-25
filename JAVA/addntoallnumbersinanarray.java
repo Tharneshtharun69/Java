@@ -15,7 +15,11 @@ class addntoallnumbersinanarray{
         System.out.println("After adding "+n+" to all elements present in the array:");
         for(int i=0;i<arr.length;i++)
         {
-            System.out.print(arr[i]+n+" ");
+            arr[i]=arr[i]+n;
+        }
+        for(int i=0;i<arr.length;i++)
+        {
+            System.out.print(arr[i]+" ");
         }
     }
 }
