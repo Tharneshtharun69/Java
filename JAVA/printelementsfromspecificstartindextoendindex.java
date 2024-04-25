@@ -12,8 +12,11 @@ class printelementsfromspecificstartindextoendindex
         {
             arr[i]=sc.nextInt();
         }
+        System.out.println("from which index you want to print the array elements?");
         int startindex=sc.nextInt();
+        System.out.println("upto which index you want to print the array elements?");
         int endindex=sc.nextInt();
+        System.out.println("The elements from "+startindex+" to "+endindex+" index are:");
         for(int i=startindex;i<=endindex;i++)
         {
             System.out.print(arr[i]+" ");
