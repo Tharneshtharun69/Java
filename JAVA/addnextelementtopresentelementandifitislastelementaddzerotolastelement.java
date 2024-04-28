@@ -26,7 +26,7 @@ class addnextelementtopresentelementandifitislastelementaddzerotolastelement
         System.out.println("After adding next elements to the current element to the all elements present in the array and if it is last element add zero to last element,the array is:");
         for(int i=0;i<size;i++)
         {
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
     }
 }
