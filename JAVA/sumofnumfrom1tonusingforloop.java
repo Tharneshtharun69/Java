@@ -1,5 +1,5 @@
 import java.util.*;
-class sumofnumfrom1ton {
+class sumofnumfrom1tonusingforloop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
