@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class storeelementsalternatelyinanarrayandprintthearray
+class storetwodifferentelementsinalternatepositionsinanarrayandprintthearray
 {
     public static void main(String args[])
     {
@@ -22,7 +22,7 @@ class storeelementsalternatelyinanarrayandprintthearray
                 arr[i]=n2;
             }
         }
-        System.out.println("After storing the elements alternately in the array,the array is:");
+        System.out.println("After storing the two different elements in alternate position in the array,the array is:");
         for(int i=0;i<size;i++)
         {
             System.out.print(arr[i]+" ");
