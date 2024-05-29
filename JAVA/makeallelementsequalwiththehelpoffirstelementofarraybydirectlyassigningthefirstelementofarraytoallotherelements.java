@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class makeallelementsequalwiththehelpoffirstelementofarray
+class makeallelementsequalwiththehelpoffirstelementofarraybydirectlyassigningthefirstelementofarraytoallotherelements
 {
     public static void main(String args[])
     {
