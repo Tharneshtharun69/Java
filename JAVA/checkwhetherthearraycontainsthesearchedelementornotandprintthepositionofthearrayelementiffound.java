@@ -1,5 +1,5 @@
 import java.util.*;
-class arraycontainsthesearchedelementornot
+class checkwhetherthearraycontainsthesearchedelementornotandprintthepositionofthearrayelementiffound
 {
     public static void main(String args[])
     {
