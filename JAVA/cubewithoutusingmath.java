@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class cube
+class cubewithoutusingmath
 {
 public static void main(String args[])
 {
