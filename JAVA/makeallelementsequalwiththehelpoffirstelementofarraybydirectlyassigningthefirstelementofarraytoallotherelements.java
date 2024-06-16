@@ -12,6 +12,11 @@ class makeallelementsequalwiththehelpoffirstelementofarraybydirectlyassigningthe
         {
             arr[i]=sc.nextInt();
         }
+        System.out.println("The original array is:");
+        for(int i=0;i<size;i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
         for(int i=0;i<size;i++)
         {
             arr[i]=arr[0];
