@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class squarerootofn
+class squarerootofnusingmath
 {
     public static void main(String args[])
     {
