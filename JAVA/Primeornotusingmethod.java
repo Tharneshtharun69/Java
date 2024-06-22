@@ -1,5 +1,5 @@
 import java.util.*;
-public class Primeornot{
+public class Primeornotusingmethod{
     public static boolean isprime(int n){
         if(n<=1){
             return false;
