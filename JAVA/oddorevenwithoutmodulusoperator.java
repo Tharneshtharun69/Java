@@ -1,5 +1,5 @@
 import java.util.*;
-class oddorevenwithoutmodulo
+class oddorevenwithoutmodulusoperator
 {
     public static void main(String args[])
     {
