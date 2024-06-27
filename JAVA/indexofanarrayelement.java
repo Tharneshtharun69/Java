@@ -24,7 +24,7 @@ class indexofanarrayelement
                 break;
             }
         }
-        if(!found)
+        if(found==false)
         {
             System.out.println("The element was not found in the array");
         }
