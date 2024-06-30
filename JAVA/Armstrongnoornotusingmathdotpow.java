@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Armstrongnoornot
+class Armstrongnoornotusingmathdotpow
 {
     public static void main(String args[])
     {
