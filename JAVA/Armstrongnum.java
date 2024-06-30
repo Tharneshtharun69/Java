@@ -1,19 +1,30 @@
-import java.util.*;
-public class Armstrongnum {
-    public static void main(String[] args) {
-Scanner sc=new Scanner(System.in);
-        int num = sc.nextInt();
-        int number, temp, total = 0;
-        number = num;
-        while (number != 0)
+import java.util.Scanner;
+class Armstrongnoornot
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a number:");
+        int n=sc.nextInt();
+        int originalnum=n;
+        int digits=0;
+        String s=Integer.toString(n);
+        digits=s.length();
+        int sum=0;
+        int r;
+        while(n!=0)
         {
-            temp = number % 10;
-            total = total + temp*temp*temp;
-            number /= 10;
+            r=n%10;
+            sum=sum+(int)(Math.pow(r,digits));
+            n/=10;
         }
-        if(total == num)
-            System.out.println(num + " is an Armstrong number");
+        if(sum==originalnum)
+        {
+            System.out.print("Armstrong no");
+        }
         else
-            System.out.println(num + " is not an Armstrong number");
+        {
+            System.out.print("Not an Armstrong no");
+        }
     }
 }
