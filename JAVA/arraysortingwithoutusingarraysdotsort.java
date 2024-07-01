@@ -3,7 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-class arraysorting {
+class arraysortingwithoutusingarraysdotsort {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int size=sc.nextInt();
