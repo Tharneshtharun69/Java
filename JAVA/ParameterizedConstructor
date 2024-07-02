@@ -1,0 +1,21 @@
+class ParameterizedConstructor
+{
+  String name;
+  int age;
+  ParameterizedConstructor(String n,int a)
+  {
+    name=n;
+    age=a;
+  }
+  void display()
+  {
+    System.out.println(name+" "+age);
+  }
+  public static void main(String args[])
+  {
+    ParameterizedConstructor p1=new ParameterizedConstructor("Adhi",20);
+    ParameterizedConstructor p2=new ParameterizedConstructor("Arun",21);
+    p1.display();
+    p2.display();
+  }
+}
