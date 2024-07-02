@@ -1,5 +1,5 @@
 import java.util.*;
-class noofonebitsinanumberusingmethod{
+class noofonesinabinaryrepresentationofanumberusingmethod{
     public static int noofonebitsinano(int n) {
         String binary=Integer.toBinaryString(n);
         int count=0;
@@ -16,6 +16,6 @@ class noofonebitsinanumberusingmethod{
     {
       Scanner sc=new Scanner(System.in);
       int n=sc.nextInt();
-      System.out.print(noofonebitsinano(n));
+      System.out.print(noofonesinabinaryrepresentationofanumberusingmethod(n));
     }
 }
