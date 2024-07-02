@@ -1,6 +1,6 @@
 import java.util.*;
 class noofonebitsinanumberusingmethod{
-    public int noofonebitsinano(int n) {
+    public static int noofonebitsinano(int n) {
         String binary=Integer.toBinaryString(n);
         int count=0;
         for(int i=0;i<binary.length();i++)
