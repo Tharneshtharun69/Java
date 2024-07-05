@@ -20,7 +20,7 @@ class midelementofarrayforbothevenandoddnoofelements
         else
         {
             System.out.println("The mid element of the array is:");
-            System.out.println(arr[(size%2)+1]);
+            System.out.print(arr[(size/2)]);
         }
     }
 }
