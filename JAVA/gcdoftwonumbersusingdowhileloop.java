@@ -1,5 +1,5 @@
 import java.util.*;
-class gcdoftwonumbersusingdowhile{
+class gcdoftwonumbersusingdowhileloop{
     public static void main(String args[]){
       Scanner sc=new Scanner(System.in);
       int max=0;
