@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class gcdoftwonumbers
 {
   public static void main(String args[])
