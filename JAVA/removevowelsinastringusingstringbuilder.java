@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class removevowelsinastring
+class removevowelsinastringusingstringbuilder
 {
   public static void main (String[] args) 
   {
