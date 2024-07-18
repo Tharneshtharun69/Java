@@ -11,6 +11,6 @@ class Stringreverseusingstringbuilder
         {
             sb.append(s.charAt(i));
         }
-        System.out.print(sb);
+        System.out.print(sb.toString());
     }
 }
