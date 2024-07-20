@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class secondmaxelementinthearray
+class secondmaximumelementinthearray
 { 
     public static void main(String args[])
     {
