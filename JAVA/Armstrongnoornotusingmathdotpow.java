@@ -7,15 +7,14 @@ class Armstrongnoornotusingmathdotpow
         System.out.print("Enter a number:");
         int n=sc.nextInt();
         int originalnum=n;
-        int digits=0;
+        int noofdigits=s.length();
         String s=Integer.toString(n);
-        digits=s.length();
         int sum=0;
         int r;
         while(n!=0)
         {
             r=n%10;
-            sum=sum+(int)(Math.pow(r,digits));
+            sum=sum+(int)(Math.pow(r,noofdigits));
             n/=10;
         }
         if(sum==originalnum)
