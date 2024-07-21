@@ -28,7 +28,7 @@ class allpossibleelementpairswhichsumtoobtaintargetsum{
                 {
                     if(!found)
                     {
-                        System.out.println("All possible Element pairs which sum to obtain target sum: ");
+                        System.out.println("All possible element pairs which sum to obtain target sum: ");
                         found=true;
                     }
                     System.out.println(arr[i]+" "+arr[j]);
@@ -38,7 +38,7 @@ class allpossibleelementpairswhichsumtoobtaintargetsum{
         }
         if(found==false)
         {
-            System.out.print("No two elements found which sum to target sum");
+            System.out.print("No possible element pairs found which sum to obtain target sum");
         }
     }
 }
