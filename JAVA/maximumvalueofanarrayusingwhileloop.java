@@ -27,7 +27,7 @@ class maximumvalueofanarrayusingwhileloop
         System.out.println();
         System.out.println("Maximum value of the array is:");
         int k=0;
-        int max=0;
+        int max=arr[0];
         while(k<size)
         {
             if(arr[k]>max)
