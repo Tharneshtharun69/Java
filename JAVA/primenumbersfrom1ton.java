@@ -9,7 +9,7 @@ class primenumbersfrom1ton
         for(int i=2;i<=n;i++)
         {
             int divisorcount=0;
-            for(int j=1;j<n;j++)
+            for(int j=1;j<=n;j++)
             {
                 if(i%j==0)
                 {
