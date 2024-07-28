@@ -22,7 +22,7 @@ class sumofodddigitsandevendigitsinanumber
             }
             n/=10;
         }
-        System.out.println("Odd sum: "+oddsum);
-        System.out.println("Even sum: "+evensum);
+        System.out.println("sum of odd digits: "+oddsum);
+        System.out.println("sum of even digits: "+evensum);
     }
 }
