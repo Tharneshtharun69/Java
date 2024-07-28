@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class sumofoddsigitsandevendigitsinanumber
+class sumofodddigitsandevendigitsinanumber
 {
     public static void main(String args[])
     {
