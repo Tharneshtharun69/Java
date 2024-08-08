@@ -2,7 +2,14 @@ import java.util.Scanner;
 class missingnumberinanarray{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int arr[]={1,2,3,4,6};//change this array as needed
+        System.out.print("Enter the size of the array:");
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+        System.out.print("Enter the elements of the array:");
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
         int expectedsum=0;
         int max=0;
         for(int i=0;i<arr.length;i++)
@@ -29,7 +36,7 @@ class missingnumberinanarray{
         {
             actualsum=actualsum+arr[i];
         }
-        int missing=expectedsum-actualsum;
+        int missing=Math.max(expectedsum,actualsum)-Math.min(expectedsum,actualsum);
         System.out.print("The missing number in the array is:");
         System.out.print(missing);
     }
