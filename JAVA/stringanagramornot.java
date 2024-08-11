@@ -24,6 +24,10 @@ class stringanagramornot
       {
         System.out.print("Anagram");
       }
+      else
+      {
+        System.out.print("Not Anagram");
+      }
     }
   }
 }
