@@ -1,18 +1,19 @@
-import java.util.*;
-class Fibonacciseries {
-  public static void main(String[] args) {
-Scanner sc=new Scanner(System.in);
-    int n = sc.nextInt();
-int firstTerm = 0,secondTerm = 1;
-    System.out.println("Fibonacci Series till " + n + " terms:");
-
-    for (int i = 1; i <= n; ++i) {
-      System.out.print(firstTerm + ", ");
-
-      // compute the next term
-      int nextTerm = firstTerm + secondTerm;
-      firstTerm = secondTerm;
-      secondTerm = nextTerm;
+import java.util.Scanner;
+class fibonacciseries{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the no of terms that you want to print Fibonacci series:");
+        int n=sc.nextInt();
+        int first=0;
+        int second=1;
+        System.out.print(first+" "+second+" ");
+        int next;
+        for(int i=2;i<n;i++)
+        {
+            next=first+second;
+            System.out.print(next+" ");
+            first=second;
+            second=next;
+        }
     }
-  }
 }
