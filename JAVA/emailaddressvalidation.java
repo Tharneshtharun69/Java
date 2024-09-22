@@ -17,6 +17,8 @@ public class emailaddressvalidation
         boolean character=false;
         boolean containsatsymbol=false;
         char atsymbol='@';
+        String gmaildotcom="gmail.com";
+        boolean containsgmaildotcom=false;
         if(s.length()>=6 && s.length()<=30)
         {
             len=true;
@@ -47,7 +49,14 @@ public class emailaddressvalidation
                 number=true;
             }
         }
-        if(containsatsymbol==true && character==true && number==true && len==true)
+        for(int m=0;m<s.length();m++)
+        {
+            if(s.contains(gmaildotcom))
+            {
+                containsgmaildotcom=true;
+            }
+        }
+        if(containsatsymbol==true && character==true && number==true && len==true && containsgmaildotcom==true)
         {
             System.out.print("Valid Email");
         }
