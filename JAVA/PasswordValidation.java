@@ -30,7 +30,7 @@ public class PasswordValidation {
                 }
             }
         }
-        if (len && upper && lower && number && specialchar) {
+        if (len==true && upper==true && lower==true && number==true && specialchar==true) {
             System.out.println("Valid");
         } else {
             System.out.println("Not Valid");
