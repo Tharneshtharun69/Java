@@ -7,8 +7,8 @@ class Armstrongnoornotusingmathdotpow
         System.out.print("Enter a number:");
         int n=sc.nextInt();
         int originalnum=n;
-        int noofdigits=s.length();
         String s=Integer.toString(n);
+        int noofdigits=s.length();
         int sum=0;
         int r;
         while(n!=0)
