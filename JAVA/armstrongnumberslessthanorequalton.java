@@ -20,7 +20,7 @@ class armstrongnumberslessthanorequalton
             }
             if(sum==b)
             {
-                System.out.println(i);
+                System.out.print(i);
             }
         }
     }
