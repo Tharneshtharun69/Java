@@ -1,5 +1,5 @@
 import java.util.*;
-class armstrongnumberslessthann
+class armstrongnumberslessthanorequalton
 {
     public static void main(String args[])
     {
