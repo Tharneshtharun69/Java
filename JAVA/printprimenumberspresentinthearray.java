@@ -23,7 +23,6 @@ class printprimenumberspresentinthearray
                     divisorcount++;
                 }
             }
-            boolean printed=false;
             if(divisorcount==2)
             {
                 found=true;
