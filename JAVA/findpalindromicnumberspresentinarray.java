@@ -7,7 +7,6 @@ public class findpalindromicnumberspresentinarray
 	    int size=sc.nextInt();
 	    int arr[]=new int[size];
 	    boolean found=false;
-	    ArrayList<Integer> list=new ArrayList<>();
 	    System.out.print("Enter the elements of the array:");
 	    for(int i=0;i<size;i++)
 	    {
