@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main
+class ntermsoftribonaccisequence
 {
     public static void main(String args[])
     {
