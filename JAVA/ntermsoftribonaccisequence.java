@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ntermsoftribonaccisequence
+class Main
 {
     public static void main(String args[])
     {
@@ -25,7 +25,7 @@ class ntermsoftribonaccisequence
         else
         {
              System.out.print(zeroth+" "+first+" "+second+" ");
-            while(i<=n)
+            while(i<n)
             {
                 nth=zeroth+first+second;
                 System.out.print(nth+" ");
