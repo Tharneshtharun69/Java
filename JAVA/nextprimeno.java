@@ -1,9 +1,8 @@
-import java.util.*;
 class nextprimeno{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        for(int i=n;i>=n;i++)
+        for(int i=n+1;i>=n;i++)
         {
             int divisorcount=0;
             for(int j=1;j<=i;j++)
